@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "8bit-adder"
+  site-url: "https://mone27.github.io/8bit-adder"
+  description: "A debugger for a 8bit adder board"
+  repo-branch: main
+  repo-url: "https://github.com/mone27/8bit-adder"
