@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "RPi Server",
+    "section": "",
+    "text": "import RPi.GPIO as GPIO\nGPIO.setmode(GPIO.BCM) # numbers from 0 to 40\n\npinout of a RPI \n\npins_a = [7, 11, 13, 15, 19, 21, 23, 27] # high to low\npins_a.reverse()\n\n\npins_a\n\n[27, 23, 21, 19, 15, 13, 11, 7]\n\n\n\nGPIO.setup(pins_a, GPIO.OUT)\n\n\nGPIO.output(pins_a, GPIO.HIGH)",
+    "crumbs": [
+      "RPi Server"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "8bit-adder",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "8bit-adder"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "8bit-adder",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall 8bit_adder in Development mode\n# make sure 8bit_adder package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to 8bit_adder\n$ nbdev_prepare",
+    "crumbs": [
+      "8bit-adder"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "8bit-adder",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/mone27/8bit-adder.git\nor from conda\n$ conda install -c mone27 8bit_adder\nor from pypi\n$ pip install 8bit_adder\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "8bit-adder"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "8bit-adder",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "8bit-adder"
+    ]
+  }
+]
