@@ -5,4 +5,12 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://mone27.github.io',
                 'git_url': 'https://github.com/mone27/8bit-adder',
                 'lib_path': '8bit_adder'},
-  'syms': {'8bit_adder.core': {'8bit_adder.core.foo': ('core.html#foo', '8bit_adder/core.py')}}}
+  'syms': { '8bit_adder.core': {'8bit_adder.core.foo': ('core.html#foo', '8bit_adder/core.py')},
+            '8bit_adder.rpi_server': { '8bit_adder.rpi_server.api_set_a': ('core.html#api_set_a', '8bit_adder/rpi_server.py'),
+                                       '8bit_adder.rpi_server.api_set_b': ('core.html#api_set_b', '8bit_adder/rpi_server.py'),
+                                       '8bit_adder.rpi_server.api_set_mode': ('core.html#api_set_mode', '8bit_adder/rpi_server.py'),
+                                       '8bit_adder.rpi_server.dec_to_bin_digits': ( 'core.html#dec_to_bin_digits',
+                                                                                    '8bit_adder/rpi_server.py'),
+                                       '8bit_adder.rpi_server.set_add': ('core.html#set_add', '8bit_adder/rpi_server.py'),
+                                       '8bit_adder.rpi_server.set_number': ('core.html#set_number', '8bit_adder/rpi_server.py'),
+                                       '8bit_adder.rpi_server.set_sub': ('core.html#set_sub', '8bit_adder/rpi_server.py')}}}
