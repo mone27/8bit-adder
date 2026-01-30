@@ -4,3 +4,5 @@
 _proc
 .ipynb_checkpoints
 __pycache__
+.env
+nbs/91_tunnel_setup.ipynb
